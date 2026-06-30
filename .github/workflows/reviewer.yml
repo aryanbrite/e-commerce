@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Open-Rabbit
-        uses: aryanbrite/openrabbit@v0.7.4
+        uses: aryanbrite/openrabbit@v0.7.5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           llm_api_key: ${{ secrets.LLM_API_KEY }}
