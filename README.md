@@ -1,2 +1,2 @@
-#this is a E-commerce website
+# This is an E-commerce website
 this is fully completed
