@@ -1,8 +1,17 @@
 ```mermaid
 graph LR
-  A[GitHub · HN · Reddit · PH] --> B[RepoScout]
-  B --> C[Score · Dedupe · Categorize]
-  C --> D[LLM Summarize]
-  D --> E[PostgreSQL DB]
-  D --> F[This Catalog]
+    A[PR #82] --> B[CI Workflow]
+    A --> C[Action Code]
+    A --> D[Documentation]
+
+    B --> E[Lint]
+    B --> F[Test]
+    B --> G[Build]
+    B --> H[SARIF Upload]
+
+    C --> I[Review Engine]
+    I --> J[Generate Findings]
+    J --> K[Job Summary]
+
+    D --> L[README Updated]
 ```
